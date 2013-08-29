@@ -1,6 +1,6 @@
 ## Simple file/directory watcher library with a simple API
 
-Simple example:
+Example:
 
 ```javascript
 miniwatch('my-dir', function(error, files) {
@@ -10,7 +10,7 @@ miniwatch('my-dir', function(error, files) {
 
 With **miniwatch** you can watch a directory for file changes using the well-known `(error, result)` callback pattern. The events are throttled, so you can optimize your event handling for a bunch of simultaneous file changes. All the initial files, currently in the watched directory, are also reported as created. So you don't have to `glob` yourself.
 
-Verbose example:
+More verbose example:
 
 ```javascript
 miniwatch({

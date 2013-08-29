@@ -1,0 +1,14 @@
+{
+	"name": "miniwatch",
+	"version": "0.1.0",
+	"description": "Simple file/directory watcher library with a simple API.",
+	"author": "Bjarke Walling",
+	"repository": {
+		"type": "git",
+		"url": "http://github.com/walling/miniwatch.git"
+	},
+	"dependencies": {
+		"minimatch": "*",
+		"chokidar": "*"
+	}
+}
